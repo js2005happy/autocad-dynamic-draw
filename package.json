@@ -1,0 +1,51 @@
+{
+  "name": "autocad-dynamic-draw",
+  "version": "1.0.0",
+  "description": "Enterprise AutoCAD dynamic drawing skill for Claude Code — step-by-step COM-driven drafting with real-time visualization, perfect for design reviews, training demos, and process documentation.",
+  "main": "src/index.js",
+  "bin": {
+    "autocad-dynamic-draw": "./src/cli.js"
+  },
+  "files": [
+    "SKILL.md",
+    "src/",
+    "scripts/",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "autocad",
+    "cad",
+    "claude-code",
+    "codex",
+    "skill",
+    "ai-agent",
+    "com-automation",
+    "dynamic-drawing",
+    "enterprise",
+    "drafting",
+    "engineering",
+    "pyautocad",
+    "mcp",
+    "dxf",
+    "step"
+  ],
+  "author": "js2005happy <js2005happy@outlook.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/js2005happy/autocad-dynamic-draw.git"
+  },
+  "bugs": {
+    "url": "https://github.com/js2005happy/autocad-dynamic-draw/issues"
+  },
+  "homepage": "https://github.com/js2005happy/autocad-dynamic-draw#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node scripts/test_connection.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
