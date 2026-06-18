@@ -1,3 +1,28 @@
+---
+name: autocad-dynamic-draw
+description: >
+  Enterprise AutoCAD dynamic drawing skill for Claude Code — step-by-step
+  COM-driven drafting with configurable delay, auto backup, layer management,
+  and logging. Use when the user mentions "AutoCAD 动态绘制", "逐步画图",
+  "演示画图过程", "在 AutoCAD 中一笔一笔画", or CAD drafting/drawing keywords.
+  Supports real-time visualization of each drawing entity for design reviews,
+  training demos, and process documentation.
+version: "1.0.1"
+license: MIT
+compatibility: "Windows 10/11 + AutoCAD full (not LT) + Python 3.8+ + pyautocad"
+tags:
+  - autocad
+  - cad
+  - drafting
+  - engineering
+  - com-automation
+  - dynamic-drawing
+  - enterprise
+  - dxf
+  - pyautocad
+  - step
+---
+
 # Skill: AutoCAD 动态绘图 (autocad-dynamic-draw)
 
 ## 1. 概述
@@ -159,6 +184,6 @@ pip install pyautocad
 （Claude Code 在环境检查阶段会自动执行此命令，若权限不足会提示手动安装）
 
 ---
-版本: 1.0 (企业版)
+版本: 1.0.1 (企业版)
 最后更新: 2026-06-19
 适用平台: Windows + AutoCAD 完整版（非 LT） + Claude Code

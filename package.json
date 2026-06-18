@@ -1,6 +1,6 @@
 {
   "name": "autocad-dynamic-draw",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Enterprise AutoCAD dynamic drawing skill for Claude Code — step-by-step COM-driven drafting with real-time visualization, perfect for design reviews, training demos, and process documentation.",
   "main": "src/index.js",
   "bin": {
